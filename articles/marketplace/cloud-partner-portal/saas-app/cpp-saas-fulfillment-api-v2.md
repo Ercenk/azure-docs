@@ -151,7 +151,7 @@ Internal Server Error
 
 Gets the specified SaaS subscription. Use this call to get license information and plan information.
 
-**Get:<br> `https://marketplaceapi.microsoft.com/api/saas/subscriptions/<subscriptionId?api-version=<ApiVersion>`**
+**Get:<br> `https://marketplaceapi.microsoft.com/api/saas/subscriptions/<subscriptionId>?api-version=<ApiVersion>`**
 
 *Query parameters:*
 
@@ -305,7 +305,7 @@ Response body:
     "offerId": "ce-dr-tier2",
     "planId": "silver",
     "quantity": "20",
-    "operationId": " be750acb-00aa-4a02-86bc-476cbe66d7fa"  
+    "operationId": "be750acb-00aa-4a02-86bc-476cbe66d7fa"  
 }
 ```
 
